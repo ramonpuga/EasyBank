@@ -136,3 +136,42 @@ section.banner p {
 section.banner button {
     display: flex;
 }
+section.about {
+    background-color: hsl(220, 16%, 96%);
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+section.about h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: hsl(233, 26%, 24%);
+}
+section.about p {
+    font-size: 15px;
+    line-height: 28px;
+    max-width: 350px;
+    color: hsl(233, 8%, 62%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+section.about .whyus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section.about article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 345px;
+}
+section.about article img {
+    padding: 20px;
+}
+section.about article h3 {
+    font-size: 20px;
+    padding: 5px;
+    color: hsl(233, 26%, 24%);
+}
