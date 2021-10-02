@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Easy Bank */
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 28px;
+    background-color: #FFF;
+}
+header .menu, header button {
+    display: none;
+}
+button.req-invite {
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    border-radius: 24px;
+    border-color: transparent;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: hsl(220, 16%, 96%);
+    font-size: 14px;
+    font-weight: 600;
+}
+nav.menu-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    background-color: gray;
+    padding: 5vh 15vw;
+    right: 10%;
+}
+nav.menu-mobile .item {
+    padding: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 28px;
+}
+section.banner {
+    display: flex;
+    flex-direction: column;
+}
+section.banner .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+section.banner .first {
+    width: 100%;
+    height: 60vh;
+    background: url(images/bg-intro-mobile.svg) center no-repeat;
+    background-size: cover;
+    background-position-y: 45%;
+    overflow: hidden;
+    padding: 10px 0;
+}
+section.banner .first img {
+    width: 90%;
+    position: relative;
+    bottom: 17%;
+}
+section.banner .second {
+    padding-bottom: 90px;
+}
+section.banner h1 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 32px;
+    padding-bottom: 10px;
+    color: hsl(233, 26%, 24%);
+}
+section.banner p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    max-width: 350px;
+    color: hsl(233, 8%, 62%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+section.banner button {
+    display: flex;
+}
