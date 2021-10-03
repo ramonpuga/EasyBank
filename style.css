@@ -48,6 +48,7 @@ table {
 /* Easy Bank */
 body {
     font-family: 'Public Sans', sans-serif;
+    image-rendering: pixelated;
 }
 header {
     display: flex;
@@ -174,4 +175,51 @@ section.about article h3 {
     font-size: 20px;
     padding: 5px;
     color: hsl(233, 26%, 24%);
+}
+section.blog {
+    background-color: hsl(0, 0%, 98%);
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+section.blog article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 345px;
+    background-color: #FFF;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+section.blog article img {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 25px;
+}
+section.blog article .container {
+    align-items: flex-start;
+    padding: 0 25px;
+}
+section.blog h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: hsl(233, 26%, 24%);
+}
+section.blog article h4 {
+    color: hsl(233, 8%, 62%);
+    font-size: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+section.blog article h3 {
+    color: hsl(233, 26%, 24%);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    max-width: 280px;
+}
+section.blog article p {
+    color: hsl(233, 8%, 62%);
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 280px;
 }
