@@ -45,7 +45,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* Easy Bank */
+/* Mobile settings (first) */
 body {
     font-family: 'Public Sans', sans-serif;
     image-rendering: pixelated;
@@ -269,4 +269,26 @@ footer .social a {
 }
 footer .social a img {
     width: 25px;
+}
+/* Desktop settings */
+@media (min-width: 1024px) {
+    header {
+        padding: 30px 150px;
+    }
+    header .menu {
+        display: flex;
+    }
+    header .menu a {
+        color: hsl(233, 8%, 62%);
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px;
+    }
+    header button {
+        display: flex;
+    }
+    header .menu-bars {
+        display: none;
+    }
 }
