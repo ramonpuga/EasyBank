@@ -334,4 +334,52 @@ footer .social a img {
         letter-spacing: 1px;
         padding: 10px 26px;
     }
+    section.about {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    section.about .container {
+        padding: 0 150px;
+        align-items: flex-start;
+    }
+    section.about .whyus {
+        align-items: flex-start;
+    }
+    section.about .whyus h2 {
+        font-size: 35px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    }
+    section.about .whyus p {
+        max-width: 570px;
+        text-align: left;
+        font-size: 16px;
+    }
+    section.about .title {
+        display: flex;
+        flex-direction: row;
+    }
+    section.about .benefits {
+        display: flex;
+        flex-direction: row;
+    }
+    section.about .benefits p {
+        font-size: 14px;
+        max-width: 231px;
+        line-height: 22px;
+    }
+    section.about article {
+        align-items: flex-start;
+        text-align: left;
+        padding-right: 15px;
+        width: 250px;
+    }
+    section.about article img {
+        padding: 40px 0;
+        width: 70px;
+    }
+    section.about article h3 {
+        font-size: 22px;
+        padding: 5px 0;
+    }
 }
