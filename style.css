@@ -376,10 +376,39 @@ footer .social a img {
     }
     section.about article img {
         padding: 40px 0;
-        width: 70px;
     }
     section.about article h3 {
         font-size: 22px;
         padding: 5px 0;
+    }
+    section.blog {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    section.blog .container {
+        padding: 0 150px;
+        align-items: flex-start;
+    }
+    section.blog .title h2 {
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+    section.blog .latest-articles {
+        display: flex;
+        background-color: hsl(0, 0%, 98%);
+    }
+    section.blog article {
+        width: 235px;
+        margin-right: 30px;
+    }
+    section.blog article img {
+        height: 185px;
+    }
+    section.blog article h3 {
+        font-size: 15px;
+    }
+    section.blog article p {
+        font-size: 12px;
+        line-height: 14px;
     }
 }
